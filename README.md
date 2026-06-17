@@ -1,8 +1,9 @@
-# NAMA : ANDREAN PUTRA ARYA 
+# Project Sistem Manajemen Inventaris Barang (E-Inventory)
+NAMA : ANDREAN PUTRA ARYA 
 
-# NIM : 312410341
+NIM : 312410341
 
-# KELAS : I241E
+KELAS : I241E
 
 ## 📌 Deskripsi Proyek
 
