@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-Inventory | Enterprise Edition</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased selection:bg-indigo-200 selection:text-indigo-900">
+
+  <div id="app"></div>
+
+  <!-- Axios -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <!-- Vue 3 -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <!-- Vue Router -->
+  <script src="https://unpkg.com/vue-router@4/dist/vue-router.global.js"></script>
+
+  <!-- Components -->
+  <script src="components/Home.js"></script>
+  <script src="components/Login.js"></script>
+  <script src="components/Dashboard.js"></script>
+  <script src="components/Items.js"></script>
+  <script src="components/Categories.js"></script>
+  <script src="components/Suppliers.js"></script>
+  <script src="components/StockHistory.js"></script>
+
+  <script>
+    const BASE_URL = 'http://localhost/UAS_Web2_312410341_Andrean/backend-api/public/api';
+
+    axios.interceptors.request.use(config => {
+      const token = localStorage.getItem('token');
+      if (token) config.headers.Authorization = `Bearer ${token}`;
+      return config;
+    });
+
+    axios.interceptors.response.use(
+      response => response,
+      error => {
+        if (error.response && error.response.status === 401) {
+          localStorage.clear();
+          alert('Sesi habis! Silakan login kembali.');
+          router.push('/login');
+        }
+        return Promise.reject(error);
+      }
+    );
+
+    const routes = [
+      { path: '/', component: Home },
+      { path: '/login', component: Login },
+      { path: '/dashboard', component: Dashboard, meta: { requiresAuth: true } },
+      { path: '/items', component: Items, meta: { requiresAuth: true } },
+      { path: '/categories', component: Categories, meta: { requiresAuth: true } },
+      { path: '/suppliers', component: Suppliers, meta: { requiresAuth: true } },
+      { path: '/stock-history', component: StockHistory, meta: { requiresAuth: true } },
+    ];
+
+    const router = VueRouter.createRouter({ history: VueRouter.createWebHashHistory(), routes });
+
+    router.beforeEach((to, from, next) => {
+      if (to.meta.requiresAuth && !localStorage.getItem('isLoggedIn')) next('/login');
+      else next();
+    });
+
+    Vue.createApp({ template: `<router-view></router-view>` }).use(router).mount('#app');
+  </script>
+</body>
+</html>
