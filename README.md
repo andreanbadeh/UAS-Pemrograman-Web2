@@ -106,7 +106,7 @@ Endpoint yang diproteksi token (POST, PUT, DELETE) akan mengembalikan response:
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/[username]/UAS_Web2_[NIM]_[Nama].git
+https://github.com/andreanbadeh/UAS-Pemrograman-Web2.git
 ```
 
 ### 2. Setup Backend (CodeIgniter 4)
