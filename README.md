@@ -69,26 +69,31 @@ Endpoint yang diproteksi token (POST, PUT, DELETE) akan mengembalikan response:
 ## 🖥️ Screenshot Antarmuka Aplikasi
 
 ### Halaman Beranda (Public)
-<img src="Screenshot/dashboard.png" width="800" alt="Halaman Beranda"/>
-
+![gambar](https://github.com/andreanbadeh/UAS-Pemrograman-Web2/blob/dd40da3a0b840dcd860e85f775ff454cd7e9c27f/gambar/Screenshot%20(36).png)
 
 ### Halaman Login
-<img src="Screenshot/login.png" width="800" alt="Halaman Login"/>
+![gambar](https://github.com/andreanbadeh/UAS-Pemrograman-Web2/blob/dd40da3a0b840dcd860e85f775ff454cd7e9c27f/gambar/Screenshot%20(37).png)
 
 ### Dashboard Admin
-<img src="Screenshot/dashboard_admin.png" width="800" alt="Dashboard"/>
+![gambar](https://github.com/andreanbadeh/UAS-Pemrograman-Web2/blob/dd40da3a0b840dcd860e85f775ff454cd7e9c27f/gambar/Screenshot%20(38).png)
 
-### Halaman Barang + Form Modal Tambah/Edit
-<img src="Screenshot/barang.png" width="800" alt="Halaman Barang"/>
+### Halaman Barang
+![gambar](https://github.com/andreanbadeh/UAS-Pemrograman-Web2/blob/dd40da3a0b840dcd860e85f775ff454cd7e9c27f/gambar/Screenshot%20(39).png)
+
+### Form Modal Tambah
+![gambar](https://github.com/andreanbadeh/UAS-Pemrograman-Web2/blob/dd40da3a0b840dcd860e85f775ff454cd7e9c27f/gambar/2026-06-19%20(2).png)
 
 ### Halaman Kategori
-<img src="Screenshot/kategori.png" width="800" alt="Halaman Kategori"/>
+![gambar](https://github.com/andreanbadeh/UAS-Pemrograman-Web2/blob/dd40da3a0b840dcd860e85f775ff454cd7e9c27f/gambar/Screenshot%20(41).png)
 
 ### Halaman Supplier
-<img src="Screenshot/supplier.png" width="800" alt="Halaman Supplier"/>
+![gambar](https://github.com/andreanbadeh/UAS-Pemrograman-Web2/blob/dd40da3a0b840dcd860e85f775ff454cd7e9c27f/gambar/Screenshot%20(42).png)
+
+### Form Mutasi Stok
+![gambar](https://github.com/andreanbadeh/UAS-Pemrograman-Web2/blob/dd40da3a0b840dcd860e85f775ff454cd7e9c27f/gambar/Screenshot%20(43).png)
 
 ### Halaman Histori Stok
-<img src="Screenshot/histori_stok.png" width="800" alt="Histori Stok"/>
+![gambar(https://github.com/andreanbadeh/UAS-Pemrograman-Web2/blob/dd40da3a0b840dcd860e85f775ff454cd7e9c27f/gambar/Screenshot%20(44).png)
 
 ---
 
