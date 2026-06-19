@@ -93,7 +93,7 @@ Endpoint yang diproteksi token (POST, PUT, DELETE) akan mengembalikan response:
 ![gambar](https://github.com/andreanbadeh/UAS-Pemrograman-Web2/blob/dd40da3a0b840dcd860e85f775ff454cd7e9c27f/gambar/Screenshot%20(43).png)
 
 ### Halaman Histori Stok
-![gambar(https://github.com/andreanbadeh/UAS-Pemrograman-Web2/blob/dd40da3a0b840dcd860e85f775ff454cd7e9c27f/gambar/Screenshot%20(44).png)
+![gambar](https://github.com/andreanbadeh/UAS-Pemrograman-Web2/blob/dd40da3a0b840dcd860e85f775ff454cd7e9c27f/gambar/Screenshot%20(44).png)
 
 ---
 
