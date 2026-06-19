@@ -148,12 +148,12 @@ http://localhost/backend-api/public/
 ### 5. Jalankan Frontend
 Buka folder `frontend-spa/` langsung di browser:
 ```
-http://localhost/frontend-spa/
+http://localhost/UAS_Web2_312410341_Andrean/frontend-spa/#/
 ```
 
 ### 6. Login Admin Default
 ```
-Email    : andre@einventory.com
+Email    : andre@admin.com
 Password : andre123
 ```
 
