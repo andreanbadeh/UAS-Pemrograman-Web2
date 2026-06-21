@@ -142,7 +142,7 @@ database.default.port     = 3306
 ### 4. Jalankan Backend
 Pastikan **XAMPP** sudah aktif (Apache + MySQL), lalu akses:
 ```
-http://localhost/backend-api/public/
+http://localhost:8080/api/items
 ```
 
 ### 5. Jalankan Frontend
