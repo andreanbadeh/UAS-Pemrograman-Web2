@@ -30,7 +30,7 @@ KELAS : I241E
 
 > **Screenshot skema relasi tabel dari phpMyAdmin Designer:**
 
-<img src="Screenshot/skema_database.png" width="800" alt="Skema Database"/>
+![gambar](https://github.com/andreanbadeh/UAS-Pemrograman-Web2/blob/b998869000eac2772e311f22dee7939295733e67/gambar/Screenshot%20(49).png)
 
 ### Deskripsi Tabel
 
@@ -52,9 +52,9 @@ KELAS : I241E
 
 ## 🔐 Uji Coba API Token Protection (Error 401)
 
-> **Screenshot pengujian endpoint POST /api/items tanpa token via Postman:**
+> **Screenshot pengujian endpoint POST /api/login tanpa token via Postman:**
 
-<img src="Screenshot/eror401.png" width="700" alt="Error 401 Postman"/>
+![gambar](https://github.com/andreanbadeh/UAS-Pemrograman-Web2/blob/b998869000eac2772e311f22dee7939295733e67/gambar/Screenshot%20(50).png)
 
 Endpoint yang diproteksi token (POST, PUT, DELETE) akan mengembalikan response:
 ```json
@@ -157,4 +157,6 @@ Email    : andre@admin.com
 Password : andre123
 ```
 
----
+### 7. Backend
+
+![gambar](https://github.com/andreanbadeh/UAS-Pemrograman-Web2/blob/b998869000eac2772e311f22dee7939295733e67/gambar/Screenshot%20(52).png)
